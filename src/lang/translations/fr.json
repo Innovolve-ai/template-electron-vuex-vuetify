@@ -1,0 +1,34 @@
+{
+    "vuetify-loader":"vuetify-loader",
+    "github":"github",
+    "awesome-vuetify":"génial-vuetify",
+    "Documentation":"Documentation",
+    "Chat":"Discuter",
+    "Made with Vuetify":"Réalisé avec Vuetify",
+    "Twitter":"Twitter",
+    "Articles":"Des articles",
+    "Explore components":"Explorer les composants",
+    "Select a layout":"Sélectionnez une mise en page",
+    "Frequently Asked Questions":"Questions fréquemment posées",
+    "Vuetify":"Vuetifier",
+    "to":"à",
+    "components":{
+        "language":{
+            "label":"Internationalisation",
+            "appbar-end-text":"DERNIÈRE LIBÉRATION"
+        },
+        "helloworld":{
+            "header":"Bonjour Vuetify",
+            "sub-header":"Pour obtenir de l'aide et une collaboration avec d'autres développeurs vuetify, veuillez rejoindre notre ligne  <a href=\"https://community.vuetifyjs.com\" target=\"_blank\">Discorde Communauté</a>",
+            "header-2":{
+                "text":" quelle suivante"
+            },
+            "header-3":{
+                "text":" importante lien"
+            },"header-4":{
+                "text":" écosystème"
+            }
+        }
+    }
+   
+}

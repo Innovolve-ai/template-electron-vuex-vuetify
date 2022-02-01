@@ -1,0 +1,22 @@
+{
+    "components":{
+        "language":{
+            "label":"Internationalization",
+            "appbar-end-text":"LATEST RELEASE"
+        },
+        "helloworld":{
+            "header":"Welcome to Vuetify",
+            "sub-header":"For help and collaboration with other vuetify developer please join our online <a href=\"https://community.vuetifyjs.com\" target=\"_blank\">Discord Community</a>",
+            "header-2":{
+                "text":" What's Next"
+            },
+            "header-3":{
+                "text":" Important Links"
+            },"header-4":{
+                "text":" Ecosystem"
+            },
+            "links":"vuetify-loader"
+        }
+    }
+    
+}

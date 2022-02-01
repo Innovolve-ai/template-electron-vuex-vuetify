@@ -35,7 +35,6 @@ describe("Application launch", function() {
       stopServe = instance.stopServe;
       //wait for window to appear
       client.waitUntilWindowLoaded();
-
     });
   }, 300000);
 

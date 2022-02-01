@@ -130,6 +130,13 @@ sudo apt -y install nodejs
 
 * Remove cmdtest `sudo apt-get remove cmdtest`
 * Install yarn
+### Docs
+-{{$t('text)}}-to translate with respective languages
+-In vue.config.js- to make static localhost
+devServer: {
+    port: 3000
+},
+
 
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -

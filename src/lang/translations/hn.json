@@ -1,0 +1,44 @@
+{
+    "vuetify-loader":"व्युटिफ़ाइ-लोडर",
+    "github":"git",
+    "awesome-vuetify":"भयानक-व्युटिफ़ाइ",
+    "Documentation":"प्रलेखन",
+    "Chat":"चैट",
+    "Made with Vuetify":"व्युटिफ़ाइ के साथ बनाया गया",
+    "Twitter":"ट्विटर",
+    "Articles":"सामग्री",
+    "Explore components":"घटकों का अन्वेषण करें",
+    "Select a layout":"एक लेआउट चुनें",
+    "Frequently Asked Questions":"अक्सर पूछे जाने वाले प्रश्नों",
+    "Vuetify":"व्युटिफ़ाइ",
+    "to":"प्रति",
+    "components":{
+        "language":{
+            "label":"अंतर्राष्ट्रीयकरण",
+            "appbar-end-text":"नवीनतम रिहाई"
+        },
+        "helloworld":{
+            "header":"हैलो व्युटिफ़ाइ",
+            "sub-header":"अन्य व्युटिफ़ाइ डेवलपर्स के साथ मदद और सहयोग के लिए कृपया हमारे ऑनलाइन शामिल हों  <a href=\"https://community.vuetifyjs.com\" target=\"_blank\">कलह समुदाय</a>",
+            "header-2":{
+                "text":"क्या है अगला"
+            },
+            "header-3":{
+                "text":" जरूरी लिंक"
+            },"header-4":{
+                "text":" पारिस्थितिकी तंत्र"
+            }
+        }
+    },
+    "views":{
+        "about":{
+            "header":"अंतर्राष्ट्रीयकरण"
+        },
+        "home":{
+            "header":"अंतर्राष्ट्रीयकरण"
+        }
+    }
+
+   
+    
+}
