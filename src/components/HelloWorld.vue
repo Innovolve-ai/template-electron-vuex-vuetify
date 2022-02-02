@@ -12,7 +12,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          {{ $t('components.helloworld.header') }}
+          {{ $t("components.helloworld.header") }}
         </h1>
         <p
           v-html="$t('components.helloworld.sub-header')"
@@ -24,7 +24,7 @@
 
       <v-col class="mb-5" cols="12">
         <h2 class="headline font-weight-bold mb-3">
-          {{ $t('components.helloworld.header-2.text') }}
+          {{ $t("components.helloworld.header-2.text") }}
         </h2>
         <v-row justify="center"> </v-row>
         <v-row justify="center">
@@ -35,14 +35,14 @@
             class="subheading mx-3"
             target="_blank"
           >
-            {{ $t(next.text) }}
+            {{ next.text }}
           </a>
         </v-row>
       </v-col>
 
       <v-col class="mb-5" cols="12">
         <h2 class="headline font-weight-bold mb-3">
-          {{ $t('components.helloworld.header-3.text') }}
+          {{ $t("components.helloworld.header-3.text") }}
         </h2>
 
         <v-row justify="center">
@@ -53,94 +53,98 @@
             class="subheading mx-3"
             target="_blank"
           >
-            {{ $t(link.text) }}
+            {{ link.text }}
           </a>
         </v-row>
       </v-col>
 
       <v-col class="mb-5" cols="12">
         <h2 class="headline font-weight-bold mb-3">
-           {{ $t('components.helloworld.header-4.text') }}
+          {{ $t("components.helloworld.header-4.text") }}
         </h2>
 
         <v-row justify="center">
           <a
-            v-for="eco in ecosystem"
-            :key="eco.text"
+            v-for="(eco, i) in ecosystem"
+            :key="i"
             :href="eco.href"
             class="subheading mx-3"
             target="_blank"
           >
-            {{ $t(eco.text) }}
+            {{ eco.text }}
           </a>
         </v-row>
       </v-col>
     </v-row>
+    <Test />
   </v-container>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-// import Language from '../components/Language.vue'
-
 export default Vue.extend({
   name: "HelloWorld",
-  // components: {
-
-  //   Language
-  // },
-
-  data: () => ({
-    ecosystem: [
-      {
-        text: "vuetify-loader",
-        href: "https://github.com/vuetifyjs/vuetify-loader"
-      },
-      {
-        text: "github",
-        href: "https://github.com/vuetifyjs/vuetify"
-      },
-      {
-        text: "awesome-vuetify",
-        href: "https://github.com/vuetifyjs/awesome-vuetify"
-      }
-    ],
-    importantLinks: [
-      {
-        text: "Documentation",
-        href: "https://vuetifyjs.com"
-      },
-      {
-        text: "Chat",
-        href: "https://community.vuetifyjs.com"
-      },
-      {
-        text: "Made with Vuetify",
-        href: "https://madewithvuejs.com/vuetify"
-      },
-      {
-        text: "Twitter",
-        href: "https://twitter.com/vuetifyjs"
-      },
-      {
-        text: "Articles",
-        href: "https://medium.com/vuetify"
-      }
-    ],
-    whatsNext: [
-      {
-        text: "Explore components",
-        href: "https://vuetifyjs.com/components/api-explorer"
-      },
-      {
-        text: "Select a layout",
-        href: "https://vuetifyjs.com/getting-started/pre-made-layouts"
-      },
-      {
-        text: "Frequently Asked Questions",
-        href: "https://vuetifyjs.com/getting-started/frequently-asked-questions"
-      }
-    ]
-  })
+  created() {
+    console.log(this.$i18n.locale);
+  },
+  computed: {
+    ecosystem() {
+      return [
+        {
+          text: this.$t("components.helloworld.eco.link1"),
+          href: "https://github.com/vuetifyjs/vuetify-loader"
+        },
+        {
+          text: this.$t("components.helloworld.eco.link2"),
+          href: "https://github.com/vuetifyjs/vuetify"
+        },
+        {
+          text: this.$t("components.helloworld.eco.link3"),
+          href: "https://github.com/vuetifyjs/awesome-vuetify"
+        }
+      ];
+    },
+    importantLinks() {
+      return [
+        {
+          text: this.$t("components.helloworld.Important.link1"),
+          href: "https://vuetifyjs.com"
+        },
+        {
+          text: this.$t("components.helloworld.Important.link2"),
+          href: "https://community.vuetifyjs.com"
+        },
+        {
+          text: this.$t("components.helloworld.Important.link3"),
+          href: "https://madewithvuejs.com/vuetify"
+        },
+        {
+          text: this.$t("components.helloworld.Important.link4"),
+          href: "https://twitter.com/vuetifyjs"
+        },
+        {
+          text: this.$t("components.helloworld.Important.link5"),
+          href: "https://medium.com/vuetify"
+        }
+      ];
+    },
+    whatsNext() {
+      return [
+        {
+          text: this.$t("components.helloworld.whatsnext.link1"),
+          href: "https://vuetifyjs.com/components/api-explorer"
+        },
+        {
+          text: this.$t("components.helloworld.whatsnext.link2"),
+          href: "https://vuetifyjs.com/getting-started/pre-made-layouts"
+        },
+        {
+          text: this.$t("components.helloworld.whatsnext.link3"),
+          href:
+            "https://vuetifyjs.com/getting-started/frequently-asked-questions"
+        }
+      ];
+    }
+  }
 });
 </script>

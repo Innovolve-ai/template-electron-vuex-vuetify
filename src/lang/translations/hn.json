@@ -1,17 +1,5 @@
 {
-    "vuetify-loader":"व्युटिफ़ाइ-लोडर",
-    "github":"git",
-    "awesome-vuetify":"भयानक-व्युटिफ़ाइ",
-    "Documentation":"प्रलेखन",
-    "Chat":"चैट",
-    "Made with Vuetify":"व्युटिफ़ाइ के साथ बनाया गया",
-    "Twitter":"ट्विटर",
-    "Articles":"सामग्री",
-    "Explore components":"घटकों का अन्वेषण करें",
-    "Select a layout":"एक लेआउट चुनें",
-    "Frequently Asked Questions":"अक्सर पूछे जाने वाले प्रश्नों",
-    "Vuetify":"व्युटिफ़ाइ",
-    "to":"प्रति",
+
     "components":{
         "language":{
             "label":"अंतर्राष्ट्रीयकरण",
@@ -25,11 +13,31 @@
             },
             "header-3":{
                 "text":" जरूरी लिंक"
-            },"header-4":{
+            },
+            "header-4":{
                 "text":" पारिस्थितिकी तंत्र"
+            },
+            "eco":{
+                "link1":"व्युटिफ़ाइ-लोडर",
+                "link2":"github",
+                "link3":"भयानक-व्युटिफ़ाइ"
+            },
+            "Important":{
+                "link1":"प्रलेखन",
+                "link2":"चैट",
+                "link3":"व्युटिफ़ाइ के साथ बनाया गया",
+                "link4":"ट्विटर",
+                "link5":"सामग्री"
+
+            },
+            "whatsnext":{
+                "link1":"घटकों का अन्वेषण करें",
+                "link2":"एक लेआउट चुनें",
+                "link3":"अक्सर पूछे जाने वाले प्रश्नों"
             }
         }
     },
+            
     "views":{
         "about":{
             "header":"अंतर्राष्ट्रीयकरण"

@@ -1,16 +1,16 @@
 <template>
   <v-container fluid>
     <v-row align="center">
-      <div class="select">
+      <div class="select" id="sec1">
         <v-select
-          id="sec"
+          id="{ 'sec' }"
           class="select"
           @change="changeLanguage"
           :items="items"
           item-text="state"
           item-value="abbr"
           :label="$t('components.language.label')"
-          data-cy='select-input'
+          data-cy="xyz"
         ></v-select>
       </div>
     </v-row>
@@ -27,22 +27,8 @@ export default {
       console.log(this.$i18n);
     }
   },
-  data: () => ({
-    // items: [
-    //   {
-    //     label: "English",
-    //     value: "en",
-    //   },
-    //   {
-    //     label: "Hindi",
-    //     value: "hn",
-    //   },
-    //   {
-    //     label: "French",
-    //     value: "fr",
-    //   },
-    // ],
 
+  data: () => ({
     select: { state: "Florida", abbr: "FL" },
     items: [
       { state: "English", abbr: "en" },

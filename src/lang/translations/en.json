@@ -15,7 +15,24 @@
             },"header-4":{
                 "text":" Ecosystem"
             },
-            "links":"vuetify-loader"
+            "eco":{
+                "link1":"vuetify-loader",
+                "link2":"github",
+                "link3":"awesome-vuetify"
+            },
+            "Important":{
+                "link1":"Documentation",
+                "link2":"Chat",
+                "link3":"Made with Vuetify",
+                "link4":"Twitter",
+                "link5":"Articles"
+
+            },
+            "whatsnext":{
+                "link1":"Explore components",
+                "link2":"Select a layout",
+                "link3":"Frequently Asked Questions"
+            }
         }
     }
     

@@ -1,17 +1,4 @@
 {
-    "vuetify-loader":"vuetify-loader",
-    "github":"github",
-    "awesome-vuetify":"génial-vuetify",
-    "Documentation":"Documentation",
-    "Chat":"Discuter",
-    "Made with Vuetify":"Réalisé avec Vuetify",
-    "Twitter":"Twitter",
-    "Articles":"Des articles",
-    "Explore components":"Explorer les composants",
-    "Select a layout":"Sélectionnez une mise en page",
-    "Frequently Asked Questions":"Questions fréquemment posées",
-    "Vuetify":"Vuetifier",
-    "to":"à",
     "components":{
         "language":{
             "label":"Internationalisation",
@@ -27,6 +14,24 @@
                 "text":" importante lien"
             },"header-4":{
                 "text":" écosystème"
+            },
+            "eco":{
+                "link1":"vuetify-loader",
+                "link2":"github",
+                "link3":"génial-vuetify"
+            },
+            "Important":{
+                "link1":"Documentation",
+                "link2":"Discuter",
+                "link3":"Réalisé avec Vuetify",
+                "link4":"Twitter",
+                "link5":"Des articles"
+
+            },
+            "whatsnext":{
+                "link1":"Explorer les composants",
+                "link2":"Sélectionnez une mise en page",
+                "link3":"Questions fréquemment posées"
             }
         }
     }
