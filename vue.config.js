@@ -1,4 +1,7 @@
 module.exports = {
+  devServer: {
+    port: process.env.PORT
+  },
   transpileDependencies: ["vuetify"],
   pluginOptions: {
     electronBuilder: {
