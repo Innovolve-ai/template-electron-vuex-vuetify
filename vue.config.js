@@ -1,4 +1,7 @@
 module.exports = {
+  devServer: {
+    port: process.env.STATIC_DEV_SERVER_PORT
+  },
   transpileDependencies: ["vuetify"],
   pluginOptions: {
     electronBuilder: {
@@ -20,6 +23,13 @@ module.exports = {
       linux: {
         category: "Development"
       }
+    },
+    i18n: {
+      locale: "en",
+      fallbackLocale: "en",
+      localeDir: "locales",
+      enableInSFC: false,
+      enableBridge: false
     }
   }
 };

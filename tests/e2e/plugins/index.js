@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable arrow-body-style */
 // https://docs.cypress.io/guides/guides/plugins-guide.html
 
@@ -14,6 +15,17 @@ module.exports = (on, config) => {
   //  webpackOptions: require('@vue/cli-service/webpack.config'),
   //  watchOptions: {}
   // }))
+
+  if (config.testingType === "component") {
+    const { startDevServer } = require("@cypress/webpack-dev-server");
+
+    // Vue's Webpack configuration
+    const webpackConfig = require("@vue/cli-service/webpack.config.js");
+
+    on("dev-server:start", options =>
+      startDevServer({ options, webpackConfig })
+    );
+  }
 
   return Object.assign({}, config, {
     fixturesFolder: "tests/e2e/fixtures",

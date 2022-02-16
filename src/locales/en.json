@@ -1,0 +1,39 @@
+{
+    "components":{
+        "language":{
+            "label":"Internationalization",
+            "appbar-end-text":"LATEST RELEASE"
+        },
+        "helloworld":{
+            "header":"Welcome to Vuetify",
+            "sub-header":"For help and collaboration with other vuetify developer please join our online <a href=\"https://community.vuetifyjs.com\" target=\"_blank\">Discord Community</a>",
+            "header-2":{
+                "text":" What's Next"
+            },
+            "header-3":{
+                "text":" Important Links"
+            },"header-4":{
+                "text":" Ecosystem"
+            },
+            "eco":{
+                "link1":"vuetify-loader",
+                "link2":"github",
+                "link3":"awesome-vuetify"
+            },
+            "Important":{
+                "link1":"Documentation",
+                "link2":"Chat",
+                "link3":"Made with Vuetify",
+                "link4":"Twitter",
+                "link5":"Articles"
+
+            },
+            "whatsnext":{
+                "link1":"Explore components",
+                "link2":"Select a layout",
+                "link3":"Frequently Asked Questions"
+            }
+        }
+    }
+    
+}

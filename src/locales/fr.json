@@ -1,0 +1,39 @@
+{
+    "components":{
+        "language":{
+            "label":"Internationalisation",
+            "appbar-end-text":"DERNIÈRE LIBÉRATION"
+        },
+        "helloworld":{
+            "header":"Bonjour Vuetify",
+            "sub-header":"Pour obtenir de l'aide et une collaboration avec d'autres développeurs vuetify, veuillez rejoindre notre ligne  <a href=\"https://community.vuetifyjs.com\" target=\"_blank\">Discorde Communauté</a>",
+            "header-2":{
+                "text":" quelle suivante"
+            },
+            "header-3":{
+                "text":" importante lien"
+            },"header-4":{
+                "text":" écosystème"
+            },
+            "eco":{
+                "link1":"vuetify-loader",
+                "link2":"github",
+                "link3":"génial-vuetify"
+            },
+            "Important":{
+                "link1":"Documentation",
+                "link2":"Discuter",
+                "link3":"Réalisé avec Vuetify",
+                "link4":"Twitter",
+                "link5":"Des articles"
+
+            },
+            "whatsnext":{
+                "link1":"Explorer les composants",
+                "link2":"Sélectionnez une mise en page",
+                "link3":"Questions fréquemment posées"
+            }
+        }
+    }
+   
+}
