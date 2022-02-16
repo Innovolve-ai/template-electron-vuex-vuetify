@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    port: process.env.BASE_PORT1
+    port: process.env.STATIC_DEV_SERVER_PORT
   },
   transpileDependencies: ["vuetify"],
   pluginOptions: {
