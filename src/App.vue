@@ -35,10 +35,6 @@
 
     <v-main>
       <HelloWorld />
-      <!-- <Language></Language> -->
-      <!-- <h1>{{ $t('hello') }}</h1>
-    <h1>{{ $t('welcome',{name:"Suresh Ramani"}) }}</h1> -->
-      <!-- <Language></Language> -->
     </v-main>
   </v-app>
 </template>
@@ -48,8 +44,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Language from "./components/Language.vue";
 
 export default Vue.extend({
-  name: "App   ",
-
+  name: "App",
   components: {
     HelloWorld,
     Language

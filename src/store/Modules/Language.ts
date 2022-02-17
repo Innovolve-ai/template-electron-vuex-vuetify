@@ -1,7 +1,7 @@
 import { Module, VuexModule, Mutation } from "vuex-module-decorators";
 import store from "../index";
 @Module({
-  name: "Language",
+  name: "Lang",
   store: store,
   dynamic: true,
   preserveState: localStorage.getItem("vuex") !== null

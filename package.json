@@ -77,6 +77,12 @@
     "webpack-dev-server": "^4.7.4",
     "xvfb-maybe": "^0.2.1"
   },
+  "electron": {
+    "window": {
+      "width": 800,
+      "height": 600
+    }
+  },
   "license": "License",
   "productName": "Product Name"
 }

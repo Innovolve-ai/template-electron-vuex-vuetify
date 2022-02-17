@@ -26,11 +26,8 @@ export default {
   methods: {
     changeLanguage(val) {
       console.log(val);
-      // this.$store.commit('setLanguage',val)
       langModule.setLanguage(val);
-
       this.$i18n.locale = val;
-      // localStorage.setItem("language", val);
       console.log(this.$i18n.locale);
       console.log(langModule);
     }

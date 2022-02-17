@@ -18,16 +18,11 @@ protocol.registerSchemesAsPrivileged([
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-<<<<<<< Updated upstream
     width: appconfig.electron.window.width,
     height: appconfig.electron.window.height,
-    title: appconfig.productName,
-=======
-    width: 800,
-    height: 600,
     autoHideMenuBar: true,
     frame: true,
->>>>>>> Stashed changes
+
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info

@@ -12,7 +12,9 @@ describe("Multilingual test cases", () => {
       .eq(1)
       .click();
     // cy.get('.v-list-item').first().click();
-    cy.get('a').contains('कलह समुदाय').click();
+    cy.get("a")
+      .contains("कलह समुदाय")
+      .click();
     cy.contains("h1", "हैलो व्युटिफ़ाइ");
   });
 });

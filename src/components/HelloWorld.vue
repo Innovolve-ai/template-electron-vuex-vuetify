@@ -18,8 +18,6 @@
           v-html="$t('components.helloworld.sub-header')"
           class="subheading font-weight-regular"
         ></p>
-        <!-- <h3>{{ $t('hello') }}</h3>
-    <h3>{{ $t('welcome',{name:"Suresh Ramani"}) }}</h3> -->
       </v-col>
 
       <v-col class="mb-5" cols="12">
@@ -83,9 +81,7 @@
 import Vue from "vue";
 export default Vue.extend({
   name: "HelloWorld",
-  // created() {
-  //   console.log(this.$i18n.locale);
-  // },
+
   computed: {
     ecosystem() {
       return [
