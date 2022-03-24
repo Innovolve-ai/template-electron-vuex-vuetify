@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-24T12:17:11.830Z",
+    "end": "2022-03-24T12:17:20.857Z",
+    "duration": 8902,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "49fe5880-ed60-4c2b-a457-0e495899dd9f",
+      "title": "",
+      "fullFile": "cypress/integration/example.spec.ts",
+      "file": "cypress/integration/example.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a5de1c9f-9474-4875-93f4-0bf21b640879",
+          "title": "My First Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "visits the app root url",
+              "fullTitle": "My First Test visits the app root url",
+              "timedOut": null,
+              "duration": 7956,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/example.spec.ts.mp4\"",
+              "code": "cy.visit(\"/\");",
+              "err": {},
+              "uuid": "621d3319-4a4f-4d85-940c-34d4f621137b",
+              "parentUUID": "a5de1c9f-9474-4875-93f4-0bf21b640879",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "changes language",
+              "fullTitle": "My First Test changes language",
+              "timedOut": null,
+              "duration": 946,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "\"videos/example.spec.ts.mp4\"",
+              "code": "cy.get(\"select\").select(\"hi\");\ncy.contains(\"h1\", \"Vue3 + Vite + Vuetify इलेक्ट्रॉन ऐप में आपका स्वागत है।\");",
+              "err": {},
+              "uuid": "a01fe06e-0055-4a65-a18b-fce40116acd8",
+              "parentUUID": "a5de1c9f-9474-4875-93f4-0bf21b640879",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "621d3319-4a4f-4d85-940c-34d4f621137b",
+            "a01fe06e-0055-4a65-a18b-fce40116acd8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8902,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results",
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.1.1"
+    }
+  }
+}
