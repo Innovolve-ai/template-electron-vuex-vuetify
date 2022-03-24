@@ -1,9 +1,9 @@
-.DS_Store
-node_modules
-/dist
-
+#cypress
+.cache/*
 /cypress/videos/
 /cypress/screenshots/
+/cypress/reports/
+/cypress/results/
 
 # local env files
 node_modules
@@ -34,3 +34,4 @@ lerna-debug.log*
 
 #Electron-builder output
 /dist_electron
+

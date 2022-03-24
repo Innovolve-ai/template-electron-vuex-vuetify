@@ -1,0 +1,6 @@
+*.sh
+.prettierignore
+*.ps1
+CODEOWNERS
+.gitignore
+.gitkeep
